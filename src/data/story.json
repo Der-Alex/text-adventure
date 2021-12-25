@@ -1,0 +1,157 @@
+{
+  "1": {
+    "id": 1,
+    "plot": "Du erwachst aus einem merkwürdigen Traum. Du siehst ihn noch ganz klar vor deinen Augen. Am Schulhof hast du mit deinen Freunden Ben und Marie gespielt. Als du auf das Klettergerüst geklettert bist, fandest du dich plötzlich im Inneren eines Raumschiffs wieder. Gerade als sich dir ein Schatten näherte, wurdest du wach.",
+    "question": "'So ein merkwürdiger Traum!' denkst du dir.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ich muss wissen, wem das Raumschiff gehört!",
+        "nextStoryPartId": 2
+      },
+      {
+        "id": 2,
+        "answer": "Ich bin verschwitzt und muss erstmal duschen.",
+        "nextStoryPartId": 3
+      },
+      {
+        "id": 3,
+        "answer": "Ich leg mich wieder hin...",
+        "nextStoryPartId": 4
+      }
+    ]
+  },
+  "2": {
+    "id": 2,
+    "plot": "Du willst der Sache nachgehen und wissen, was es mit dem Traum auf sich hat. Doch leider hast du heute Schule und musst dich für den Unterricht fertig machen.",
+    "question": "Was möchtest du als nächstes tun?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ich gehe zum Klettergerüst und untersuche es.",
+        "nextStoryPartId": 5
+      },
+      {
+        "id": 2,
+        "answer": "Ich bereite mich erstmal auf die Schule vor.",
+        "nextStoryPartId": -1
+      }
+    ]
+  },
+  "3": {
+    "id": 3,
+    "plot": "Du gehst duschen. Nach der Dusche fühlst du dich erfrischt und kannst wieder klar denken. Es war ja alles nur ein Traum. Also ist es nicht so wichtig zu wissen, wem das Raumschiff gehört. Schließlich hast du dir alles nur eingebildet.",
+    "question": "Ende.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Nochmaaaal",
+        "nextStoryPartId": 1
+      },
+      {
+        "id": 2,
+        "answer": "Beenden.",
+        "nextStoryPartId": -1
+      }
+    ]
+  },
+  "4": {
+    "id": 4,
+    "plot": "Du legst dich wieder hin und schläfst ein.",
+    "question": "zZz zZz zZz...",
+    "options": [
+      {
+        "id": 1,
+        "answer": "zZz...",
+        "nextStoryPartId": 1
+      },
+      {
+        "id": 2,
+        "answer": "Schnaaaarch",
+        "nextStoryPartId": 1
+      }
+    ]
+  },
+  "5": {
+    "id": 5,
+    "plot": "Du gehst zum Klettergerüst. Hier gibt es nichts außergewöhnliches. Allerdings erinnerst du dich an deinen Traum. Also kletterst du auf das Gerüst und schaust was passiert. Plötzlich findest du dich wirklich im Raumschiff wieder! Es ist ein echtes Raumschiff!",
+    "question": "Du bist sehr aufgeregt.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ich schaue mich weiter um",
+        "nextStoryPartId": 6
+      },
+      {
+        "id": 2,
+        "answer": "Ich suche den Ausgang",
+        "nextStoryPartId": 7
+      }
+    ]
+  },
+  "6": {
+    "id": 6,
+    "plot": "Du begibst dich tiefer in das Raumschiff und läufst durch einen schmalen Gang. Am Ende befindet sich eine Tür",
+    "question": "An der Tür gibt es zwei Knöpfe, einen roten und einen grünen.",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ich drücke den roten Knopf",
+        "nextStoryPartId": 8
+      },
+      {
+        "id": 2,
+        "answer": "Ich drücke den grünen Knopf",
+        "nextStoryPartId": 9
+      }
+    ]
+  },
+  "7": {
+    "id": 7,
+    "plot": "Du drehst dich einmal im Kreis um herauszufinden, wo sich der Ausgang befindet. Jedoch kannst du keinen Ein- oder Ausgang sehen. Merkwürdig.",
+    "question": "Was willst du tun?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ich gehe weiter hinein.",
+        "nextStoryPartId": 6
+      }
+    ]
+  },
+  "8": {
+    "id": 8,
+    "plot": "Als du den roten Knopf drückst, ertönt ein lautes, schrilles Geräusch. Es klingt, wie quitschende Kreide an der Tafel nur viel lauter. Durch den Alarm gerätst du in Panik.",
+    "question": "Was willst du tun?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Schnell den grünen Knopf drücken.",
+        "nextStoryPartId": 10
+      }
+    ]
+  },
+  "9": {
+    "id": 9,
+    "plot": "Als du den grünen Knopf drückst, hörst du ein leises zischen. Dampf steigt an der Tür hinauf und sie öffnet sich. Du gehst hindurch und landest wieder zuhause.",
+    "question": "Hää? Wie bin ich hierher gekommen?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ende",
+        "nextStoryPartId": -1
+      }
+    ]
+  },
+  "10": {
+    "id": 10,
+    "plot": "Als du den grünen Knopf drückst, verstummt der Alarm und du bemerkst, wie sich die Tür unter einem leisen zischen öffnet. Du gehst hindurch und landest wieder zuhause.",
+    "question": "Hää? Wie bin ich hierher gekommen?",
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ende",
+        "nextStoryPartId": -1
+      }
+    ]
+  }
+}
