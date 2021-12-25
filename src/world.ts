@@ -1,0 +1,5 @@
+/**
+ * Game World
+ */
+
+class World {}
